@@ -1,0 +1,83 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+    <androidx.appcompat.widget.Toolbar
+        android:id="@+id/tool_bar"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        app:title="Settings"
+        android:background="@color/colorPrimary"/>
+
+
+    <TextView
+        android:id="@+id/textView1"
+        android:layout_below="@id/tool_bar"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:layout_marginTop="10dp"
+        android:text=" Location Background update" />
+    <ToggleButton
+        android:id="@+id/switch1"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+        android:layout_below="@+id/tool_bar"
+        android:layout_marginTop="10dp"
+
+        />
+
+
+    <TextView
+        android:id="@+id/textView2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Timely Location Update" />
+    <Switch
+        android:id="@+id/switch2"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView1"
+        android:layout_alignParentRight="true"
+        android:layout_marginRight="10dp"
+
+        />
+
+    <TextView
+        android:id="@+id/textView3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView2"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:text="Allow Mock Location" />
+    <Switch
+        android:id="@+id/switch3"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:checked="true"
+        android:layout_alignParentRight="true"
+        android:layout_below="@id/textView2"
+        android:layout_marginRight="10dp"
+      />
+    <TextView
+        android:id="@+id/textView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/textView3"
+        android:layout_marginBottom="20dp"
+        android:layout_marginLeft="10dp"
+        android:text=" battery optimized location reporting" />
+
+
+
+
+</RelativeLayout>

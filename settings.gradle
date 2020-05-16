@@ -1,0 +1,2 @@
+include ':app', ':locationsockets', ':locationservice'
+rootProject.name='LocationTracker'

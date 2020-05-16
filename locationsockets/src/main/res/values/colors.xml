@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#008577</color>
+    <color name="colorPrimaryDark">#00574B</color>
+    <color name="colorAccent">#D81B60</color>
+
+<!--new-->
+    <color name="colorBlack">#000000</color>
+    <color name="colorWhite">#FFFFFF</color>
+
+    <color name="colorRed">#ED553B</color>
+    <color name="colorYellow">#F6D55C</color>
+    <color name="colorGreen">#3CAEA3</color>
+    <color name="colorBlue">#20639B</color>
+    <color name="colorDarkBlue">#173F5F</color>
+
+    <!--    GRAY    -->
+    <!--    Text    -->
+    <color name="colorDarkestGrey">#11253f</color>
+    <!--    Text    -->
+    <color name="colorDarkGray">#617691</color>
+    <!--    Box Borders    -->
+    <color name="colorGray">#d4dde9</color>
+    <!--    Highlighted Box    -->
+    <color name="colorLightGray">#edf1f5</color>
+    <!--    Background    -->
+    <color name="colorLightestGray">#f6f7fa</color>
+</resources>

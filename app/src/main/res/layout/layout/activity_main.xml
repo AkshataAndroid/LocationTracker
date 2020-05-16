@@ -1,0 +1,72 @@
+<?xml version="1.0" encoding="utf-8"?>
+
+    <RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        xmlns:tools="http://schemas.android.com/tools"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        tools:context=".Activity.MainActivity">
+    <include
+        android:id="@+id/toolbar"
+        layout="@layout/tool_bar" />
+<RelativeLayout
+    android:id="@+id/layout"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_below="@id/toolbar"
+   >
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:layout_gravity="center"
+            android:id="@+id/msgView"
+            android:layout_centerInParent="true"
+            android:textColor="@color/colorBlack"
+           />
+        <TextView
+            android:id="@+id/mocklocationText"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:layout_centerInParent="true"
+            android:layout_below="@id/msgView"/>
+        <TextView
+            android:id="@+id/networkType"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text=""
+            android:textColor="@color/colorBlack"
+            android:layout_centerInParent="true"
+             android:layout_below="@id/mocklocationText"/>
+    <TextView
+        android:id="@+id/networkStrength"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/networkType"/>
+    <TextView
+        android:id="@+id/timeDiffrence"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/networkStrength"/>
+    <TextView
+        android:id="@+id/battery"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text=""
+        android:textColor="@color/colorBlack"
+        android:layout_centerInParent="true"
+        android:layout_below="@id/timeDiffrence"/>
+</RelativeLayout>
+
+    </RelativeLayout>
+
+
+
+
